@@ -12,5 +12,6 @@ int main() {
 		cout << randomNumber << endl;
 		this_thread::sleep_for(chrono::seconds(2));
 	}
+	system("PAUSE");
 	return 0;
 }
